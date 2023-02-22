@@ -7,7 +7,6 @@
  * Return: Always 0 (Success)
  */
 
-
 int main(void)
 {
 	char low, e, q;
@@ -17,7 +16,7 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; low++)
 	{
-	if (low != e && != q)
+	if (low != e && low != q)
 	putchar(low);
 	}
 	putchar('\n');
