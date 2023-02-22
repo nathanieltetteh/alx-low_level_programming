@@ -4,6 +4,7 @@
 
 /**
  * main - entry point
+ *
  * return: always 0 (success)
  */
 
@@ -16,7 +17,6 @@ int main(void)
 
 	for (low 'A'; low <= 'Z'; low++)
 	putchar(low);
-	putchar('\n');
-
+	printf('\n');
 	return (0);
 }
